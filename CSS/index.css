@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* 余白をなくす */
+    flex-direction: column;
+    background-image: url(../images/bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color:rgba(255, 255, 255, 0.682);
+    background-blend-mode:lighten;
+  }
+
+.shop_name {
+    margin-bottom: 100px;
+}
+
+.product_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.area_flex {
+    display: flex;
+    max-width: 20%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* 間隔を調整する場合は適宜調整 */
+    text-align: center;
+}
+
+.area_flex img {
+    max-width: 100%;
+    height: auto;
+}
+
+    /* input type="number" の幅を変更 */
+    input[type=number] {
+        width: 50px; /* 任意の幅に変更 */
+        height: 20px;
+    }
+
+.input_field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+  /* フォームのスタイル */
+  .name {
+    text-align: center; /* テキストを中央揃え */
+  }
+
+  form {
+    /* text-align: center; */
+  }
+
+  .invalid {
+    background-color: #ffcccc; /* 赤色 */
+  }
+
+  .valid {
+    background-color: #ccffcc; /* 緑色 */
+  }
+
+  .error-message {
+    color: red;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* テーブルの背景色を白に設定 */
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
