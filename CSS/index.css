@@ -5,14 +5,12 @@ body {
     align-items: center;
     margin: 0 auto; /* 余白をなくす */
     flex-direction: column;
-    background-image: url(../images/bg.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-color:rgba(255, 255, 255, 0.682);
+    background-color:rgba(248, 231, 148, 0.787);
     background-blend-mode:lighten;
   }
 
 .shop_name {
+  font-size: 60px;
     margin-bottom: 100px;
 }
 
