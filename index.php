@@ -16,21 +16,21 @@
 
 <section class="product_area">
     <div class="area_flex">
-        <img src="./images/item1.png">
+        <img src="./images/apple.jpeg">
         <h2>りんご</h2>
         <label for="item1-quantity">¥ 100</label><br/>
         <input type="number" id="item1-quantity" name="item1-quantity" min="0">
     </div>
     
     <div class="area_flex">
-        <img src="./images/item2.png">
+        <img src="./images/orange.jpeg">
         <h2>みかん</h2>
         <label for="item2-quantity">¥ 150</label><br/>
         <input type="number" id="item2-quantity" name="item2-quantity" min="0">
     </div>
         
     <div class="area_flex">
-        <img src="./images/item3.png">
+        <img src="./images/banana.jpeg">
         <h2>バナナ</h2>
         <label for="item3-quantity">¥ 230</label><br/>
         <input type="number" id="item3-quantity" name="item3-quantity" min="0">
